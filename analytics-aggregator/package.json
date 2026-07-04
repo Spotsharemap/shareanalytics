@@ -1,0 +1,16 @@
+{
+  "name": "spot-share-map-analytics-aggregator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Spot share map の pageViews / spots を集計し、Firestore の analyticsDaily / analyticsSummary に書き出すバッチ",
+  "main": "aggregate-analytics.js",
+  "scripts": {
+    "aggregate": "node aggregate-analytics.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "firebase-admin": "^12.6.0"
+  }
+}
